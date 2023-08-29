@@ -13,6 +13,7 @@ import java.util.List;
 public class StudentRestController {
     @GetMapping("/students")
     public List<Student> getStudents() {
+
         List<Student> theStudents = new ArrayList<>();
         
         theStudents.add(new Student("Rafael", "Calixto"));
